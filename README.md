@@ -1,6 +1,6 @@
 
 # SqlConnections
-Example: 
+
         using System;
         using System.Data.SqlClient;
 
@@ -30,23 +30,23 @@ Example:
       
       
 # Test to run this package on Console app -
+
         using SqlServerConnections;
         using System;
         using System.Data.SqlClient;
-
         namespace Test
         {
             class Program
             {
                 static void Main(string[] args)
                 {
-                
+                    //First Methods, First Way to at a time connection & query.
                     int rowAffected = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB", "INSERT INTO Name Values('Steve Jobs')");
                     
                     Console.WriteLine("Numbe of Row Affecte is " + rowAffected);
 
 
-
+                    //Second Methods, second Way to create only connection
                     SqlConnection connection = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB");
                     
                     string query = "INSERT INTO Name Values('Steve Jobs')";
