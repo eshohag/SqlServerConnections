@@ -1,4 +1,4 @@
-# SqlServerConnections
+# SqlConnections
 Example: 
         using System;
         using System.Data.SqlClient;
