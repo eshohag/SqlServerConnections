@@ -40,7 +40,7 @@
             {
                 static void Main(string[] args)
                 {
-                    //First Methods, First Way to at a time connection & query.
+                    //First Methods, First Way to create connection & query after excute on a single methods. 
                     int rowAffected = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB", "INSERT INTO Name Values('Steve Jobs')");
                     
                     Console.WriteLine("Numbe of Row Affecte is " + rowAffected);
