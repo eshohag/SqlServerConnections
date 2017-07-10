@@ -1,3 +1,4 @@
+
 # SqlConnections
 Example: 
         using System;
@@ -41,6 +42,7 @@ Example:
                 {
                 
                     int rowAffected = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB", "INSERT INTO Name Values('Steve Jobs')");
+                    
                     Console.WriteLine("Numbe of Row Affecte is " + rowAffected);
 
 
