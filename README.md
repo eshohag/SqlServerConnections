@@ -62,15 +62,12 @@
             {
                 static void Main(string[] args)
                 {
-                    //First Methods, First Way to create connection & query after excute on a single methods. 
                     int rowAffected = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB", "INSERT INTO Name Values('Steve Jobs')");
                     
                     Console.WriteLine("Numbe of Row Affecte is " + rowAffected);
 
 
-                    //Second Methods, second Way to create only connection
-                    SqlConnection connection = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB");
-                    
+                    SqlConnection connection = SqlServer.Connection("DESKTOP-TKNUD75", "TestDB");                
                     string query = "INSERT INTO Name Values('Steve Jobs')";
                     SqlCommand aCommand = new SqlCommand(query, connection);
                     connection.Open();
