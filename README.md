@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/67ubhtmijuhyhq6q?svg=true)](https://ci.appveyor.com/project/eshohag/SqlServerConnections)
 [![NuGet Badge](https://buildstats.info/nuget/SqlConnection)](https://www.nuget.org/packages/SqlConnection)
 
-# Test to run this package on Console app -
+# Code Syntax for this packages-
 
                 using SqlServerConnections;
                 using System;
