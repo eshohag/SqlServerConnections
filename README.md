@@ -1,4 +1,5 @@
 # Sql Connections Information [![Build status](https://ci.appveyor.com/api/projects/status/67ubhtmijuhyhq6q?svg=true)](https://ci.appveyor.com/project/eshohag/SqlServerConnections) [![NuGet Badge](https://buildstats.info/nuget/SqlConnection)](https://www.nuget.org/packages/SqlConnection)
+It's the instead connect to Azure SQL and SQL Server database connector with our ASP.Net applications and less code to create connection to any type of Sql Database. Example: Console, Web Form, MVC5 applications etc.
 
 ### Namespace 
         using SQLConnection
