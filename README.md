@@ -4,7 +4,7 @@
 
 # Code Syntax-
 
-        using SqlServerConnections;
+        using SqlConnections;
         using System;
         using System.Data.SqlClient;
 
