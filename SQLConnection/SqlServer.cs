@@ -1,13 +1,12 @@
-﻿using System;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
-namespace SqlConnections
+namespace SQLConnection
 {
     public abstract class SqlServer
     {
         public static SqlConnection Connection(string serverName, string databaseName)
         {
-            String connectionString = @"server='" + serverName + "';database='" + databaseName + "';Integrated Security=True";
+            string connectionString = @"server='" + serverName + "';database='" + databaseName + "';Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }

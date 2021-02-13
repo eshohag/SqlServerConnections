@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlConnections", "SqlConnections\SqlConnections.csproj", "{58D0DEE4-7EC2-4B5E-87EF-2C7BF9BF1467}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLConnection", "SQLConnection\SQLConnection.csproj", "{CE8194EA-67BE-454A-A96A-B83F418250D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{58D0DEE4-7EC2-4B5E-87EF-2C7BF9BF1467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58D0DEE4-7EC2-4B5E-87EF-2C7BF9BF1467}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58D0DEE4-7EC2-4B5E-87EF-2C7BF9BF1467}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58D0DEE4-7EC2-4B5E-87EF-2C7BF9BF1467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8194EA-67BE-454A-A96A-B83F418250D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8194EA-67BE-454A-A96A-B83F418250D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8194EA-67BE-454A-A96A-B83F418250D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8194EA-67BE-454A-A96A-B83F418250D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
