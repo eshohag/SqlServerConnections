@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace SqlServerConnections
+namespace SqlConnections
 {
     public abstract class SqlServer
     {
@@ -11,6 +11,7 @@ namespace SqlServerConnections
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }
+
         public static int Connection(string serverName, string databaseName, string insertOrUpdateQuery)
         {
             SqlConnection connection = Connection(serverName, databaseName);
@@ -20,10 +21,6 @@ namespace SqlServerConnections
             connection.Close();
             return rowAffected;
         }
-
-
-
-
 
         public static SqlConnection AzureSqlConnection(string azureServerName, string databaseName, string userID, string password)
         {
@@ -44,6 +41,5 @@ namespace SqlServerConnections
             connection.Close();
             return rowAffected;
         }
-
     }
 }

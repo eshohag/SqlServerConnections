@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>SqlConnection</PackageId>
+		<Version>1.0.3</Version>
+
+		<Description>It's the instead connect to Azure Sql Database and Sql Server database connector with our ASP.Net applications and less code to create connection to any type of Sql Database. Example: Console, Web Form, MVC5 applications etc.</Description>
+		<Authors>eShohag</Authors>
+		<Company></Company>
+		<Product>AspNet</Product>
+		<Copyright>©eShohag. All rights reserved.</Copyright>
+		<PackageLicenseFile>LicenseInfo.txt</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/eshohag/SqlServerConnections</PackageProjectUrl>
+		<PackageIcon>.NET.png</PackageIcon>
+		<RepositoryUrl>https://github.com/eshohag/SqlServerConnections</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>azure; azuresql; azuresqldatabase; sql connection; sqldatabase; sqlserver; connectionstring; sqlserverdatabase;</PackageTags>
+		<PackageReleaseNotes>https://github.com/eshohag/SqlServerConnections</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<developmentDependency>true</developmentDependency>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\..\..\..\Downloads\LicenseInfo.txt">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\..\..\..\..\OneDrive\Pictures\.NET.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
